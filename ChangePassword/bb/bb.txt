@@ -1,0 +1,40 @@
+[size=11][align=right]"Пароли, пароли, пароли…"[/align][/size][hr]
+[size=18][b][align=center]*** Change Password ***[/align][/b][/size]
+[hr]
+[img=right]https://github.com/Ander73/Store/raw/master/ChangePassword/img/title.gif[/img]
+[br]
+[color=blue][b]Назначение проекта: [/b][/color][list]Предоставление доступа к локальной системе Windows путём смены пароля и статуса учётных записей.[/list]
+[br]
+[color=blue][b]Представляет собой: [/b][/color][list]Командный бат-файл.[/list]
+[br]
+[color=blue][b]Способ применения: [/b][/color][list]
+Загружаемся из любой WinPE. Запускаем бат-ник, который:
+[list][*]Просканирует диски в поисках Windows (если дисков с Windows не один, то предложит ввести нужный).
+[*]Сделает твик реестра (куст System) и добавит бат-ник в корень найденного/выбранного системного диска.
+[/list]
+После чего можно перезагрузиться в основную систему. Перед окном входа появится консольное окно со списком пользователей. Ввести номер нужного пользователя и:
+[list][*]Сменить ему пароль
+[*]Активировать/Деактивировать
+[*]Сделать локальным Администратором
+[/list]
+По завершении работы бат-ник удалит из реестра свой запуск и самого себя с системного диска.[/list]
+[br]
+Существует возможность автоматического создания локального Администратора, если номером пользователя ввести [b]544[/b].
+Создаётся пользователь: [b]aaddmm66[/b] (если не введено другое имя) с паролем: [b]AdminPass666[/b]
+[br]
+[color=red][b]Важно![/b][/color] Если компьютер вошёл в "круговую перезагрузку", выполнить следующее:
+Загрузиться в WinPE, выполнить бат-ник, согласиться с установкой обработчика паролей и затем выбрать "Удалить и выйти" (см. первый [i]screenshot[/i]).
+[br]
+[spoiler=Screenshots][align=center]
+[th]https://github.com/Ander73/Store/raw/master/ChangePassword/img/1.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/ChangePassword/img/2.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/ChangePassword/img/3.gif[/th]
+[/align][/spoiler]
+[spoiler=Дополнительная информация]
+Работает на всей линейке Windows:  XP/7/8.1/10 и любой разрядности: x86/x64
+В настоящее время предназначена для работы только в русской и английской версиях Windows[/spoiler]
+[spoiler=Благодарность]
+[b]Joker-2013[/b], как инициатору проекта и активному участнику
+[b]korsak7, nikzzzz[/b], за тестирование и дельные советы
+[/spoiler]
+[align=center][url=https://github.com/Ander73/Store/raw/master/ChangePassword/chpwd.7z][Загрузить Change Password][/url][/align]
