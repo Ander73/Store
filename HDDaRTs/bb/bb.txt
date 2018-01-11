@@ -1,0 +1,270 @@
+[size=11][align=right]"...И представил я:
+город наводнился вдруг разумными людьми.
+Вышли все под DOS,
+а проклятый Windows удаляли, черт возьми!"[/align][/size][hr]
+[size=18][b][align=center]*** HD Diagnostic and Repair Tools ***[/align][/b][/size]
+[hr]
+[img=right]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/title.gif[/img]
+[b][color=blue]Актуальная версия: [/color][color=red]09.01.2018[/color][/b]
+[br]
+[color=blue][b]Назначение проекта: [/b][/color][list]диагностика и исправление неисправностей, связанных с HDD.[/list]
+[br]
+[color=blue][b]Представляет собой: [/b][/color][list]образ дискеты ([b]HDDaRTs.ima[/b]), предназначенный для запуска из меню Grub4Dos / GRUB2 / Syslinux / Xorboot и т.п.[/list]
+[br]
+[color=blue][b]В составе проекта имеются программы:[/b][/color]
+[list][b]Volkov Commander[/b] — файловый менеджер, работающий в Windows и MS-DOS.
+[b]Victoria[/b] — Программа предназначена для тестирования, диагностики и сервисного обслуживания IDE и Serial ATA винчестеров.
+[b]MHDD[/b] — это самая популярная бесплатная программа для низкоуровневой диагностики жестких дисков.
+[b]HDAT2[/b] — программа для тестирования и диагностики дисков. Основное преимущество перед MHDD и Victoria: поддержка практически всех дисков с интерфейсами ATA/ATAPI/SATA, SSD, SCSI и USB.
+[b]ViVARD[/b] — это мощная и простая в использовании программа для диагностики HDD.
+[b]HDD Regenerator[/b] — это уникальная программа, которая позволяет регенерировать поврежденные физически ЖД.
+[b]SpinRite[/b] — Утилита для тестирования, обслуживания и восстановления данных на жестком диске.
+[b]TestDisk[/b] — программа для восстановления утерянных разделов диска или восстановления загрузочных записей на дисках.
+[b]Active@ UNERASER[/b] — эффективная утилита для DOS и Windows, восстанавливающая файлы в системах FAT12, FAT16, FAT32, NTFS.
+[b]Active@ Partition Recovery[/b] — программа, восстанавливающая разделы жесткого диска компьютера после вирусной атаки и любых сбоев системы.
+[b]Mbrwork[/b] — используется для восстановления таблицы раздела.
+[b]DiskPatch[/b] — это профессиональная утилита восстановления данных, которая восстанавливает данные, восстанавливая поврежденную структуру дисков (таблицы разделов).
+[b]Hard Disk Sentinel[/b] — утилита для мониторинга и контроля состояния жестких дисков.
+[b]WDIdle[/b] — программа для изменения параметров парковки головок на жестких дисках.
+[b]DMDE[/b] — Программа для редактирования дисков и восстановления данных.
+[b]DRevitalize[/b] — это программа, которая позволяет регенерировать поврежденные физически ЖД.
+[b]FAR Manager[/b] — файловый менеджер, работающий в Windows и MS-DOS.[/list]
+[br]
+[spoiler=Screenshots][align=center]
+[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/1.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/2.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/3.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/4.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/5.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/6.gif[/th]
+[/align][/spoiler]
+[spoiler=Readme]
+
+[u]Состав[/u]
+
+Проект включает в себя следующие виды ПО:
+[list]- для работы с HDD как устройством (физический уровень);
+- для работы с HDD как носителем данных (логический уровень);
+- драйверы и вспомогательные программы.
+[/list]
+Операционной системой проекта является FreeDOS.
+
+[u]Устройство проекта[/u]
+
+Проект представляет собой образ дискеты, предназначенный для запуска из меню Grub4Dos/GRUB2/Syslinux/XORBOOT и т.п.
+
+В качестве рабочей оболочки используется Volkov Commander 4.99. Запуск всех программ проекта осуществляется только  из  его меню (F2).  Это связано с тем, что некоторые программы требуют для корректной работы соблюдения ряда условий (например, запуск DOS-extender'а, включение поддержки мыши, переход в каталог программы).
+
+В проекте реализовано опциональное расширение возможностей системы путем "ручного" запуска соответствующих драйверов (подменю "Поддержка...").
+
+В проекте реализована поддержка UMB двумя способами - зависимая от чипсета (UMBPCI) и полностью "софтверная" (JEMM386).
+
+[u]Аппаратные требования[/u]
+
+ОЗУ:
+[list]Минимальный объем ОЗУ для запуска проекта -        48 Мб.
+Для включения функции кэширования         -       128 Мб.
+Комфортная работа в режиме Preview by Far - более 128 Мб.
+[/list]
+BIOS:
+[list]Для более корректной работы с HDD, рекомендуется включать режим работы контроллера - Legacy IDE.[/list]
+[br]
+[u]Стартовое меню DOS[/u]
+[br]
+[list][*]Standard configuration - загрузка менеджера HMA (XMGR.SYS), загрузка Volkov Commander. (Штатный режим загрузки проекта)
+
+[*]Activate UMB (UMBPCI) - попытка включить аппаратную поддержку UMB (UMBPCI), загрузка Volkov Commander. ("Быстрое" UMB, включение зависит от поддержки чипсета)
+
+[*]Activate UMB (JEMM386) - включение "софтверной" поддержки UMB (JEMM386), загрузка Volkov Commander. ("Медленное" UMB, работает всегда)
+
+[*]Preview by Far Manager 1.70 - режим просмотра. Загрузка программной связки: LFN + NTFS + CDROM + CACHE + MOUSE + FarManager. Не предназначен для диагностики и исправления. Работает не на всех компьютерах.
+[/list]
+[br]
+* (Включение поддержки UMB необходимо в тех случаях, когда не хватает памяти для работы приложений. Например, загружается много драйверов. Посмотреть распределение памяти можно с помощью утилиты MI.COM)
+
+** (Если при загрузке происходит "зависание", можно попробовать включить режим отладки. В DOS-меню нажать F8, выбрать необходимый пункт и далее загрузка каждого компонента будет сопровождаться подтверждением (Y/N)
+
+[u]Меню Volkov Commander[/u]
+
+[i]- Главное меню:[/i]
+[br]
+[list][*] Victoria 3.52
+[*] MHDD 4.6
+[*] HDAT2 6.0b7
+[*] ViVARD 0.4
+[*] HDD Regenerator 2011
+[*] DRevitalize 3.31
+[*] BadLBA
+[/list]
+
+Это ПО физического уровня. Оно предназначено для тестирования поверхности HDD, выявления и восстановления/скрытия сбойных секторов.
+[br]
+[list][*] HD Sentinel 1.21 - просмотр параметров S.M.A.R.T., AAM, Security.
+[*] Far Manager 1.70 - альтернативный файловый менеджер с поддержкой 7-Zip.
+[/list]
+[br]
+* (Far Manager может не запускаться на некоторых компьютерах. Архивирование 7-Zip работает через меню плагинов (F11)
+
+** (DRevitalize "special key sequence" для ремапа slow sectors на системном разделе - GO)
+
+[i]- Подменю "Восстановление...":[/i]
+[br]
+[list][*] TestDisk 7.1
+[*] PhotoRec 7.1
+[*] Active Uneraser 5.0
+[*] Media Tools Pro 5.1
+[*] Active Partition Recovery 3.0
+[*] MBR Work 1.08
+[/list]
+Это ПО логического уровня. Оно предназначено для восстановления MBR, Partition tables, файловой структуры.
+[br]
+[list][*] DiskPatch 4.0.300
+[*] SpinRite 6.0
+[*] DFSee 14.11
+[/list]
+Утилиты широкого профиля. Сочетают в себе элементы физического и логического уровней.
+[br]
+[list][*] Проверка разделов NTFS - утилита для проверки целостности NTFS. (NTFSCHK v5.00 от Winternals)
+[*] Drive SnapShot 1.41 - утилита для восстановления дисков/разделов из ранее созданного бэкапа.
+[*] X-Ways Replica 2.36 - утилита для клонирования дисков/разделов.[/list]
+[br]
+* (При выполнении операций с логическим уровнем рекомендуется включать кэширование. Это может серьезно ускорить общий ход выполнения)
+
+[i]- Подменю "Поддержка...":[/i]
+[br]
+[list][*] Включить поддержку NTFS - поддержка разделов с NTFS (NDOS 6.02).
+[*] Включить поддержку LFN (FAT32) - поддержка длинных имен FAT32 (DOSLFN 0.41c)
+[*] Включить поддержку CDROM - поддержка CD/DVD-ROM.
+
+[*] Включить поддержку USB - поддержка USB (драйвер от Panasonic 2.27).
+[*] ...Подключить USB Drive (DI1000DD) - назначение буквы диска.
+[*] ...Подключить USB Drive (NJ32DISK) - назначение буквы диска (альтернатива).
+[*] ...Подключить USB CD-ROM - поддержка USB CD-ROM.
+
+[*] Включить поддержку мыши - поддержка мыши (CuteMouse 2.1b4).
+[*] Включить кэширование дисков - поддержка UDMA и кэширование HDD/CD-ROM.
+[/list]
+[br]
+* (Порядок работы с USB-устройствами (HDD, Flash, CD-ROM) таков:
+[list]- запуск поддержки USB "Включить поддержку USB"
+- если устройство найдено, то запуск "...Подключить USB Drive" или "...Подключить USB CD-ROM")
+[/list]
+[br]
+** (Включение поддержки USB имеет смысл только при загрузке с CD-ROM)
+[br]
+[i]- Подменю "Доп. утилиты...":[/i]
+[br]
+[list][*] HDDL 3.1 - утилита широкого профиля, работа с физическим уровнем HDD.
+[*] DMDE 2.4.6 - очень мощный дисковый редактор.
+[*] ATA Tools 1.2 - утилита для "тонкой" работы со S.M.A.R.T. и Security.
+[*] SMARTUDM 2.0 - утилита для просмотра параметров S.M.A.R.T.
+[*] HDDSpeed 2.32 - утилита для оценки скорости HDD и простого тестирования.
+[*] SpinTest #15 - утилита для оценки мгновенной скорости HDD.
+[*] HDD Secure Erase 4.0 - утилита для стирания диска средствами самого HDD.
+
+[*] SeaTools 1.12 - утилита от Seagate, тестирование поверхности HDD.
+[*] Hitachi DFT 4.16 - утилита от IBM/Hitachi, тестирование HDD.
+[*] WDIdle 1.05 - утилита от WD для изменения времени "засыпания" HDD.
+
+[*] ATA Command Test 5A0 - утилита проверки ATA-интерфейса.
+[*] AHCI Command Test 3A1 - утилита проверки AHCI-интерфейса.
+[/list]
+[br]
+* (Утилита Hitachi DFT может некорректно работать в режиме JEMM386)
+
+** (Утилиты ST и DFT могут работать с любыми HDD)
+
+[u]Заключение[/u]
+[br]
+[align=center]Надеюсь, что проект HDDaRTs поможет Вам в Вашей работе.[/align]
+[/spoiler]
+[spoiler=Bootable flash]
+[align=center][u]Инструкция для Windows7 и выше[/u][/align]
+[br]
+[list][*]Полная очистка и разметка флешки:[/list]
+[list]Пуск - Выполнить (или нажать [i]Win+R[/i]) - diskpart[/list]
+[code]
+list disk
+sel disk #		{# - номер диска, который флешка}
+clean
+create part prim
+active
+assign
+format fs=fat32 quick	{fs=ntfs, если нужен NTFS}
+exit[/code][br]
+[list][*]Скачать загрузчик:[/list]
+[list]Скачать GRLDR по адресу [url=http://b.chenall.net/grldr]http://b.chenall.net/grldr[/url] и переименовать его в BOOTMGR[/list]
+[br]
+[list][*]Создать файл menu.lst[/list]
+[code]
+default 0
+timeout 0
+
+title hddarts
+map --mem /hddarts.ima (fd0)
+map --hook
+rootnoverify (fd0)
+chainloader (fd0)+1[/code]
+[br]
+[list][*]Записать в корень флешки три файла: HDDaRTs.ima, menu.lst, BOOTMGR (который бывший GRLDR).
+[/list][/spoiler]
+[spoiler=Хитрости]
+В существующем виде HDDaRTs.ima не загружается утилитой memdisk из пакета Syslinux. Для корректной работы memdisk-а HDDaRTs.ima нужно "расширить" до стандартных 11Мб. Это можно сделать с помощью командного файла.
+
+Создать файл exp.cmd
+[code]
+cd /d %~dp0
+dir HDDaRTs.ima||exit
+for %%i in (HDDaRTs.ima) do set /a "ext_size=11796480-%%~zi"
+fsutil file createnew %tmp%\space.tmp %ext_size%
+copy /b HDDaRTs.ima+%tmp%\space.tmp HDDaRTs.ima
+del /q %tmp%\space.tmp
+[/code]
+Положить его в одну папку с HDDaRTs.ima и выполнить с правами "Администратора".
+
+Полученный HDDaRTs.ima можно дополнительно сжать методом gzip. Например, с помощью архиватора 7-Zip:
+[code]
+7z a HDDaRTs.gz -tgzip -mx HDDaRTs.ima
+[/code]
+[align=center]. . .[/align]
+[br]
+Чтобы протестировать работу HDDaRTs в эмуляторе QEMU, можно использовать его сетевые функции.
+
+Создайте файл menu.lst
+[code]
+default 0
+timeout 0
+
+title hddarts
+map --mem (pd)/hddarts.ima (fd0)
+map --hook
+rootnoverify (fd0)
+chainloader (fd0)+1
+[/code]
+
+Создайте папку "C:\NetFolder" и разместите в ней три файла: GRLDR, HDDaRTs.ima и созданный menu.lst.
+
+Запустите QEMU командой:
+[code]
+qemu.exe -net nic,model=e1000 -net user,tftp=C:\NetFolder,bootfile=grldr
+[/code]
+[/spoiler]
+[spoiler=История изменений]
+[b]09.01.2018[/b]
+[list][*]Обновлён HDAT2 6.0b7
+[*]Обновлён DFSee 14.11
+[*]Обновлены TestDisk, PhotoRec
+[/list]
+
+[b]25.12.2017[/b]
+[list][*]Обновлён HDAT2 6.0b6
+[*]Обновлены TestDisk, PhotoRec
+[/list]
+
+[b]07.11.2017[/b]
+[list][*]Обновлён DRevitalize 3.31
+[*]Обновлён DFSee 14.10
+[*]Обновлены TestDisk, PhotoRec
+[/list]
+[/spoiler]
+[align=center][url=https://github.com/Ander73/Store/raw/master/HDDaRTs/HDDaRTs.7z][Загрузить HDDaRTs][/url][/align]
