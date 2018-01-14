@@ -22,19 +22,28 @@
 Существует возможность автоматического создания локального Администратора, если номером пользователя ввести [b]544[/b].
 Создаётся пользователь: [b]aaddmm66[/b] (если не введено другое имя) с паролем: [b]AdminPass666[/b]
 [br]
+Для продвинутых пользователей: если в строке ввода номера пользователя ввести [b]cmd[/b], то откроется доп.консоль, куда можно вводить команды ОС (или, например, запустить с флешки любимое приложение).
+[br]
+[spoiler=*** Важно! ***]
 [color=red][b]Важно![/b][/color] Если компьютер вошёл в "круговую перезагрузку", выполнить следующее:
 Загрузиться в WinPE, выполнить бат-ник, согласиться с установкой обработчика паролей и затем выбрать "Удалить и выйти" (см. первый [i]screenshot[/i]).
 [br]
+[color=red][b]Важно![/b][/color] Во избежание "эффекта FastBoot" (ошибка "Реестр заблокирован!", диск целевой Windows монтируется не как С:, а другим диском) применять следующий порядок загрузки: загрузиться в целевую Windows, затем выполнить перезагрузку и загрузить WinPE (не грузить сразу WinPE из состояния выключенного ПК).
+[/spoiler]
 [spoiler=Screenshots][align=center]
 [th]https://github.com/Ander73/Store/raw/master/ChangePassword/img/1.gif[/th]
-[th]https://github.com/Ander73/Store/raw/master/ChangePassword/img/2.gif[/th]
 [th]https://github.com/Ander73/Store/raw/master/ChangePassword/img/3.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/ChangePassword/img/2.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/ChangePassword/img/4.gif[/th]
 [/align][/spoiler]
 [spoiler=Дополнительная информация]
-Работает на всей линейке Windows:  XP/7/8.1/10 и любой разрядности: x86/x64
-В настоящее время предназначена для работы только в русской и английской версиях Windows[/spoiler]
+[list][*]Работает на всей линейке Windows:  XP/7/8.1/10 и любой разрядности: x86/x64
+[*]Проверена работоспособность на русской, английской, французской, польской Windows.
+[*]Интерфейс программы переведён на два языка: русский и английский. Русский язык выбирается при работе в русской Windows. Во всех остальных случаях интерфейс будет по-английски.
+Желающие добавить переводы на другие языки - милости просим![/list]
+[/spoiler]
 [spoiler=Благодарность]
 [b]Joker-2013[/b], как инициатору проекта и активному участнику
 [b]korsak7, nikzzzz[/b], за тестирование и дельные советы
 [/spoiler]
-[align=center][url=https://github.com/Ander73/Store/raw/master/ChangePassword/chpwd.7z][Загрузить Change Password][/url][/align]
+[align=center][url=https://github.com/Ander73/Store/raw/master/ChangePassword/chpwd.7z]Загрузить Change Password [img]https://github.com/Ander73/Store/raw/master/download.png[/img][/url][/align]
