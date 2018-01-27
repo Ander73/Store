@@ -1,11 +1,11 @@
-[size=11][align=right]"...И представил я:
+[size=11][align=right][img]https://github.com/Ander73/Store/raw/master/poetry.png[/img]"...И представил я:
 город наводнился вдруг разумными людьми.
 Вышли все под DOS,
 а проклятый Windows удаляли, черт возьми!"[/align][/size][hr]
 [size=18][b][align=center]*** HD Diagnostic and Repair Tools ***[/align][/b][/size]
 [hr]
 [img=right]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/title.gif[/img]
-[b][color=blue]Актуальная версия: [/color][color=red]09.01.2018[/color][/b]
+[b][color=blue]Актуальная версия: [/color][color=black]09.01.2018[/color][/b]
 [br]
 [color=blue][b]Назначение проекта: [/b][/color][list]диагностика и исправление неисправностей, связанных с HDD.[/list]
 [br]
@@ -267,4 +267,4 @@ qemu.exe -net nic,model=e1000 -net user,tftp=C:\NetFolder,bootfile=grldr
 [*]Обновлены TestDisk, PhotoRec
 [/list]
 [/spoiler]
-[align=center][url=https://github.com/Ander73/Store/raw/master/HDDaRTs/HDDaRTs.7z][Загрузить HDDaRTs][/url][/align]
+[align=center][url=https://github.com/Ander73/Store/raw/master/HDDaRTs/HDDaRTs.7z]Загрузить HDDaRTs [img]https://github.com/Ander73/Store/raw/master/download.png[/img][/url][/align]
