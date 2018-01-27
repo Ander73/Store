@@ -1,4 +1,4 @@
-[size=11][align=right]"Пароли, пароли, пароли…"[/align][/size][hr]
+[size=11][align=right][img]https://github.com/Ander73/Store/raw/master/poetry.png[/img]"Пароли, пароли, пароли…"[/align][/size][hr]
 [size=18][b][align=center]*** Change Password ***[/align][/b][/size]
 [hr]
 [img=right]https://github.com/Ander73/Store/raw/master/ChangePassword/img/title.gif[/img]
