@@ -11,34 +11,12 @@
 [br]
 [color=blue][b]Представляет собой: [/b][/color][list]образ дискеты ([b]HDDaRTs.ima[/b]), предназначенный для запуска из меню Grub4Dos / GRUB2 / Syslinux / Xorboot и т.п.[/list]
 [br]
-[color=blue][b]В составе проекта имеются программы:[/b][/color]
-[list][b]Volkov Commander[/b] — файловый менеджер, работающий в Windows и MS-DOS.
-[b]Victoria[/b] — Программа предназначена для тестирования, диагностики и сервисного обслуживания IDE и Serial ATA винчестеров.
-[b]MHDD[/b] — это самая популярная бесплатная программа для низкоуровневой диагностики жестких дисков.
-[b]HDAT2[/b] — программа для тестирования и диагностики дисков. Основное преимущество перед MHDD и Victoria: поддержка практически всех дисков с интерфейсами ATA/ATAPI/SATA, SSD, SCSI и USB.
-[b]ViVARD[/b] — это мощная и простая в использовании программа для диагностики HDD.
-[b]HDD Regenerator[/b] — это уникальная программа, которая позволяет регенерировать поврежденные физически ЖД.
-[b]SpinRite[/b] — Утилита для тестирования, обслуживания и восстановления данных на жестком диске.
-[b]TestDisk[/b] — программа для восстановления утерянных разделов диска или восстановления загрузочных записей на дисках.
-[b]Active@ UNERASER[/b] — эффективная утилита для DOS и Windows, восстанавливающая файлы в системах FAT12, FAT16, FAT32, NTFS.
-[b]Active@ Partition Recovery[/b] — программа, восстанавливающая разделы жесткого диска компьютера после вирусной атаки и любых сбоев системы.
-[b]Mbrwork[/b] — используется для восстановления таблицы раздела.
-[b]DiskPatch[/b] — это профессиональная утилита восстановления данных, которая восстанавливает данные, восстанавливая поврежденную структуру дисков (таблицы разделов).
-[b]Hard Disk Sentinel[/b] — утилита для мониторинга и контроля состояния жестких дисков.
-[b]WDIdle[/b] — программа для изменения параметров парковки головок на жестких дисках.
-[b]DMDE[/b] — Программа для редактирования дисков и восстановления данных.
-[b]DRevitalize[/b] — это программа, которая позволяет регенерировать поврежденные физически ЖД.
-[b]FAR Manager[/b] — файловый менеджер, работающий в Windows и MS-DOS.[/list]
+[color=blue][b]Область применения:[/b][/color]
+[list][*]Операционная система: нет (загрузка из BIOS; UEFI не поддерживается)
+[*]Разрядность: любая
+[/list]
 [br]
-[spoiler=Screenshots][align=center]
-[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/1.gif[/th]
-[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/2.gif[/th]
-[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/3.gif[/th]
-[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/4.gif[/th]
-[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/5.gif[/th]
-[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/6.gif[/th]
-[/align][/spoiler]
-[spoiler=Readme]
+[spoiler=О проекте]
 
 [u]Состав[/u]
 
@@ -178,11 +156,18 @@ BIOS:
 [br]
 [align=center]Надеюсь, что проект HDDaRTs поможет Вам в Вашей работе.[/align]
 [/spoiler]
-[spoiler=Bootable flash]
-[align=center][u]Инструкция для Windows7 и выше[/u][/align]
+[spoiler=Screenshots][align=center]
+[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/1.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/2.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/3.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/4.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/5.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/6.gif[/th]
+[/align][/spoiler]
+[spoiler=Хитрости]
+Чтобы сделать загрузочную флешку из HDDaRTs.ima, выполните следующие шаги (инструкция для Windows 7 и выше):
 [br]
-[list][*]Полная очистка и разметка флешки:[/list]
-[list]Пуск - Выполнить (или нажать [i]Win+R[/i]) - diskpart[/list]
+Очистить и разметить флешку: Пуск - Выполнить (или нажать [i]Win+R[/i]) - diskpart
 [code]
 list disk
 sel disk #		{# - номер диска, который флешка}
@@ -192,10 +177,9 @@ active
 assign
 format fs=fat32 quick	{fs=ntfs, если нужен NTFS}
 exit[/code][br]
-[list][*]Скачать загрузчик:[/list]
-[list]Скачать GRLDR по адресу [url=http://b.chenall.net/grldr]http://b.chenall.net/grldr[/url] и переименовать его в BOOTMGR[/list]
+Скачать GRLDR по адресу [url=http://b.chenall.net/grldr]http://b.chenall.net/grldr[/url] и переименовать его в BOOTMGR
 [br]
-[list][*]Создать файл menu.lst[/list]
+Создать файл menu.lst
 [code]
 default 0
 timeout 0
@@ -206,9 +190,8 @@ map --hook
 rootnoverify (fd0)
 chainloader (fd0)+1[/code]
 [br]
-[list][*]Записать в корень флешки три файла: HDDaRTs.ima, menu.lst, BOOTMGR (который бывший GRLDR).
-[/list][/spoiler]
-[spoiler=Хитрости]
+Записать в корень флешки три файла: HDDaRTs.ima, menu.lst, BOOTMGR (который бывший GRLDR).
+[br][align=center]...[/align][br]
 В существующем виде HDDaRTs.ima не загружается утилитой memdisk из пакета Syslinux. Для корректной работы memdisk-а HDDaRTs.ima нужно "расширить" до стандартных 11Мб. Это можно сделать с помощью командного файла.
 
 Создать файл exp.cmd
@@ -226,8 +209,7 @@ del /q %tmp%\space.tmp
 [code]
 7z a HDDaRTs.gz -tgzip -mx HDDaRTs.ima
 [/code]
-[align=center]. . .[/align]
-[br]
+[br][align=center]...[/align][br]
 Чтобы протестировать работу HDDaRTs в эмуляторе QEMU, можно использовать его сетевые функции.
 
 Создайте файл menu.lst
