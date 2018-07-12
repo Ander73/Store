@@ -1,0 +1,78 @@
+[size=11][align=right][img]https://github.com/Ander73/Store/raw/master/poetry.png[/img]"Возвращается мужик из командировки, а у него дома винда переставлена."[/align][/size][hr]
+[size=18][b][align=center]*** WInst ***[/align][/b][/size]
+[hr]
+[img=right]https://github.com/Ander73/Store/raw/master/ChangePassword/img/title.gif[/img]
+[br]
+[color=blue][b]Назначение проекта: [/b][/color][list]Автоматизация запуска стандартной программы установки setup.exe с ключами командной строки и подменой стандартной библиотеки winsetup.dll для установки новых редакций Windows 10.[/list]
+[br]
+[color=blue][b]Представляет собой: [/b][/color][list]Командный бат-файл.[/list]
+[br]
+[color=blue][b]Область применения:[/b][/color]
+[list][*]Операционная система: WinPE 7-10
+[*]Разрядность: x64
+[/list]
+[br]
+[spoiler=readme.txt]
+[list=1][*]Назначение
+[list]
+Автоматизация запуска стандартной программы установки [i]setup.exe[/i] с ключами командной строки и подменой стандартной библиотеки [i]winsetup.dll[/i] для установки новых редакций Windows 10.
+[/list]
+[*]Концепция
+[list]
+Одна папка - одна установка. Если в папке несколько установочных файлов, то берётся последний (стандартная распаковка с boot.wim и install.wim отработается нормально). Папка установки обязательно содержит хотя бы один файл .WIM (или .ESD, или несколько .SWM); дополнительно может содержать папку [b]$OEM$[/b], файл [b]unattend.xml[/b] и файл описания установки .txt (одна строка в кодировке WIN-1251).
+[/list]
+[*]Выполнение
+[list]
+Сканирует папки установки из файла [b]dirlist.txt[/b] в поисках файлов с расширением WIM, ESD, SWM и формирует из них список дистрибутивов. Если папка установки содержит файл описания, то в списке отображается описание. Если файла описания нет, то в списке будет информация из первого индекса. Выбор дистрибутива из списка запускает установку. Если в папке установки присутствуют папка [b]$OEM$[/b] и/или файл [b]unattend.xml[/b], то они добавляются в командную строку запуска.
+[/list]
+[*]Состав
+[list]
+[*]winst - sfx-архив с установщиком х64 и вспомогательными утилитами.
+[*]readme.txt - файл справки.
+[*]dirlist.txt - список папок, содержащих папки с установками.
+[*]Установка Windows.cmd - файл запуска.
+[/list]
+[*]Формирование [b]dirlist.txt[/b]
+[list]
+Содержимое флешки:
+[code]
+F:\
+   INSTALL\
+           WINDOWS\
+                   WIN7x64\
+                           $OEM$\
+                           install.wim
+                           install.wim.txt
+                           unattend.xml
+                   WIN81x64\
+                            $OEM$\
+                            install.esd
+                            install.esd.txt
+                            unattend.xml
+                   WINDsplit\
+                             $OEM$\
+                             install.swm
+                             install.swm.txt
+                             install2.swm
+                             install3.swm
+                             unattend.xml
+[/code]
+Содержимое [b]dirlist.txt[/b]:
+[code]
+\INSTALL\WINDOWS
+[/code]
+[/list]
+[*]Примечания
+[list]
+[*]предназначено для запуска из-под WinPE x64
+[*]поиск папок из [b]dirlist.txt[/b] производится по всем дискам
+[*]если в папке установки есть файл [i]setup.exe[/i], то выполняется он
+[/list]
+[/list]
+[spoiler=Дополнительная информация]
+[list]
+Установщик Windows взят из комплекта [b]WinSetup2k10[/b] от [b]korsak7[/b]
+[/list]
+[/spoiler]
+[color=gray][size=9][align=right][img]https://github.com/Ander73/Store/raw/master/money.png[/img][font="Arial"]Yandex: 410014994857401[/font][/align][/size][/color]
+[align=center][url=https://github.com/Ander73/Store/raw/master/ChangePassword/chpwd.7z]Загрузить Change Password [img]https://github.com/Ander73/Store/raw/master/download.png[/img][/url][/align]
