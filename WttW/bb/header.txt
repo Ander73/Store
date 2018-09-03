@@ -2,7 +2,7 @@
 - Работает - не трогай!"[/align][/size][hr]
 [size=18][b][align=center]*** Windows tweaks & tunes Wizard ***[/align][/b][/size]
 [hr]
-[img=right]https://github.com/Ander73/Store/raw/master/WInst/img/title.gif[/img]
+[img=right]https://github.com/Ander73/Store/raw/master/WttW/img/title.gif[/img]
 [br]
 [color=blue][b]Назначение проекта: [/b][/color][list]Повышение удобства использования скрипта настроек от [url=https://github.com/Disassembler0/Win10-Initial-Setup-Script]Disassembler[/url] с возможностью добавления собственных твиков и настроек.[/list]
 [br]
@@ -180,5 +180,9 @@ WttW.cmd fake
   "разрешить", но общее запрещение.
 
 [/code][/spoiler]
+[spoiler=Screenshots][align=center]
+[th]https://github.com/Ander73/Store/raw/master/WttW/img/01.gif[/th]
+[th]https://github.com/Ander73/Store/raw/master/WttW/img/02.gif[/th]
+[/align][/spoiler]
 [color=gray][size=9][align=right][img]https://github.com/Ander73/Store/raw/master/money.png[/img][font="Arial"]Yandex: 410014994857401[/font][/align][/size][/color]
-[align=center][url=https://github.com/Ander73/Store/raw/master/WInst/WInst.7z]Загрузить WInst [img]https://github.com/Ander73/Store/raw/master/download.png[/img][/url][/align]
+[align=center][url=https://github.com/Ander73/Store/raw/master/WttW/WttW.7z]Загрузить WttW [img]https://github.com/Ander73/Store/raw/master/download.png[/img][/url][/align]
