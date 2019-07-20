@@ -1,0 +1,41 @@
+[hr]
+[size=18][b][align=center]*** Memory Test Floppy Disk ***[/align][/b][/size]
+[hr]
+[img=right]https://github.com/Ander73/Store/raw/master/HDDaRTs/img/title.gif[/img]
+[br]
+[b][color=blue]Актуальная версия: [/color][color=red]20.07.2019[/color][/b]
+[br]
+[color=blue][b]Назначение проекта: [/b][/color][list]диагностика неисправностей, связанных с RAM.[/list]
+[br]
+[color=blue][b]Представляет собой: [/b][/color][list]образ дискеты ([b]MTFD.ima[/b]), предназначенный для запуска из меню Grub4Dos / GRUB2 / Syslinux / Xorboot и т.п.[/list]
+[br]
+[color=blue][b]Область применения:[/b][/color]
+[list][*]Операционная система: нет (загрузка из BIOS; UEFI не поддерживается)
+[*]Разрядность: x86/x64
+[/list]
+[br]
+[spoiler=About.txt]
+[pre]
+ ====================================================
+             -= Memory Test Floppy Disk =-
+ ====================================================
+  Build:      20.07.2019
+  Author:     Ander_73
+  Firmware:   BIOS
+  Bits:       x86/x64
+  Support:    https://usbtor.ru/viewtopic.php?t=1260
+ ====================================================
+ Used sources:
+ ====================================================
+  Memtest86+: https://packages.debian.org/memtest86+
+  Memtest86:  https://www.memtest86.com
+  MemTest64:  https://www.hcidesign.com
+  GoldMemory: http://www.goldmemory.cz
+ ====================================================
+[/pre]
+[/spoiler]
+[spoiler=Благодарности]
+Камрадам с [b]ru-board[/b] ([b]raddyst[/b], [b]Skitz0[/b]) за помощь в скачивании RULEZ-ного WAREZ-а.
+[/spoiler]
+[color=gray][font="Arial"][size=9][align=right][img]https://github.com/Ander73/Store/raw/master/money.png[/img]Yandex: 410014994857401[/align][/size][/font][/color]
+[align=center][url=https://github.com/Ander73/Store/raw/master/HDDaRTs/HDDaRTs.7z]Загрузить MTFD [img]https://github.com/Ander73/Store/raw/master/download.png[/img][/url][/align]
