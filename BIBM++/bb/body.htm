@@ -1,0 +1,71 @@
+[hr]
+[size=18][b][align=center]*** BIBM++ ***[/align][/b][/size]
+[hr]
+[img=right]https://github.com/Ander73/Store/raw/master/MTFD/img/title.gif[/img]
+[br]
+[b][color=blue]Актуальная версия: [/color][color=red]12.08.2019[/color][/b]
+[br]
+[color=blue][b]Состав и назначение проекта: [/b][/color][list]
+[*] Partition Manager[tab](управление разделами)
+[*] Boot Manager [tab][tab](управление мульти-загрузкой ОС)
+[*] Disk Imaging   [tab][tab](клонирование/бекап/восстановление дисков и разделов)
+[*] Scripting[tab][tab][tab][tab](выполнение сценариев по обслуживанию ПК)
+[*] BWP  [tab][tab][tab][tab][tab](сброс паролей учётных записей Windows)
+[/list]
+[br]
+[color=blue][b]Представляет собой: [/b][/color][list]образ дискеты ([b]BIBM++.ima[/b]), предназначенный для запуска из меню Grub4Dos / GRUB2 / Syslinux / Xorboot и т.п.[/list]
+[br]
+[color=blue][b]Область применения:[/b][/color]
+[list][*]Операционная система: нет (загрузка из BIOS; UEFI не поддерживается)
+[*]Разрядность: любая
+[/list]
+[br]
+[spoiler=Использованное ПО]
+[list]
+[*]BootIt Bare Metal с набором стандартных скриптов ([url=https://www.terabyteunlimited.com/bootit-bare-metal.htm]ссылка[/url])
+[*]Набор скриптов от [b]dialmak[/b] ([url=http://forum.ru-board.com/topic.cgi?forum=35&topic=11112&start=1120#6]ссылка[/url])
+[*]Bypass Windows Password от [b]nikzzzz[/b] & [b]dialmak[/b] ([url=https://usbtor.ru/viewtopic.php?t=1395]ссылка[/url])
+[/list]
+[/spoiler]
+[spoiler=Примеры использования]
+[br]
+[u]Grub4Dos:[/u]
+[br]
+title BIBM++
+[tab]map --mem /IMAGES/BIBM++.GZ (fd0)
+[tab]map --hook
+[tab]rootnoverify (fd0)
+[tab]chainloader (fd0)+1
+[br]
+[u]GRUB2:[/u]
+[br]
+menuentry "BIBM++" {
+[tab]linux16  /IMAGES/memdisk raw floppy
+[tab]initrd16 /IMAGES/BIBM++.GZ
+}
+[br]
+[u]SYSLINUX:[/u]
+[br]
+LABEL bibm++
+[tab]MENU LABEL BIBM++
+[tab]KERNEL memdisk
+[tab]INITRD /IMAGES/BIBM++.GZ
+[tab]APPEND raw floppy
+[br]
+[u]Xorboot:*[/u]
+[br]
+[tab]@ Boot type:   Search & boot from file
+[tab]File name:     IMAGES\BIBM++.IMA
+[tab]@ System type: FDD image (*.img;*.ima)
+
+[color=darkblue]* Примечание:[/color] поскольку Xorboot не умеет работать со сжатыми образами, необходимо предварительно извлечь BIBM++.IMA из BIBM++.GZ (например, с помощью архиватора 7z).
+[/spoiler]
+[br]
+[spoiler=История изменений]
+[b]12.08.2019[/b]
+[list]
+[*]Первый релиз
+[/list]
+[/spoiler]
+[color=gray][font="Arial"][size=9][align=right][img]https://github.com/Ander73/Store/raw/master/money.png[/img]Yandex: 410014994857401[/align][/size][/font][/color]
+[align=center][url=https://github.com/Ander73/Store/raw/master/MTFD/MTFD.GZ]Загрузить BIBM++ [img]https://github.com/Ander73/Store/raw/master/download.png[/img][/url][/align]
