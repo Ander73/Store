@@ -1,5 +1,5 @@
 5.11.2019
-* обновлена сборка BELOFF Lite
+* Обновлена сборка BELOFF Lite
 + Добавлен логотип проекта
 * Обновлён PMagic
 * Обновлена сборка MInstAll by Andreyonohov & Leha342 Lite
