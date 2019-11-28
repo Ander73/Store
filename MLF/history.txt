@@ -1,3 +1,5 @@
+28.11.2019
+* Обновлены ссылки на Windows distro
 25.11.2019
 * Обновлён список Linux distro
 * Исправлен линк в Windows distro
