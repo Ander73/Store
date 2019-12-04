@@ -1,3 +1,5 @@
+04.12.2019
++ Добавлен AOMEI Partition Assistant
 01.12.2019
 + Добавлен аддон Paragon Hard Disk Manager
 28.11.2019
