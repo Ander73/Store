@@ -1,3 +1,5 @@
+28.12.2019
+* Обновлена сборка SergeiStrelec
 25.12.2019
 * Обновлён аддон PMagic
 * Обновлен R-Studio Network
