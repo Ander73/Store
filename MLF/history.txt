@@ -1,5 +1,6 @@
 07.01.2020
 * Обновлена сборка mini10PE by niknikto
+* Обновлён список Linux distro
 05.01.2020
 * Обновлена сборка Andreyonohov & Leha342 Lite
 01.01.2020
