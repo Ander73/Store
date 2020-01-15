@@ -1,3 +1,5 @@
+15.01.2020
+* Обновлён список Linux distro
 13.01.2020
 * Обновлена сборка Andreyonohov & Leha342 Lite
 * Обновлён список Linux distro
