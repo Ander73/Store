@@ -1,3 +1,6 @@
+07.02.2020
+* Обновлён список Linux distro
+* WinContig заменён на Defraggler
 27.01.2020
 * Обновлён список Linux distro
 24.01.2020
