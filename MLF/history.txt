@@ -1,3 +1,5 @@
+15.04.2020
+* Обновлён Runtime Software Pack
 13.04.2020
 * Обновлена сборка Andreyonohov & Leha342 Lite
 * Обновлён список Linux distro
