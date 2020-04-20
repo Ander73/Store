@@ -1,5 +1,6 @@
 20.04.2020
 * Обновлена сборка Andreyonohov & Leha342 Lite
+* Обновлён аддон Комплекты установки Windows ± Office от SmokieBlahBlah
 16.04.2020
 * Обновлён Adobe Photoshop
 15.04.2020
