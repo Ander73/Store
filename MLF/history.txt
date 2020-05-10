@@ -1,3 +1,6 @@
+10.05.2020
+* Обновлён список Linux distro
+* Обновлёна сборка System software for Windows by CUTA
 26.04.2020
 * Обновлён аддон Комплекты установки Windows ± Office от SmokieBlahBlah
 * Обновлёна сборка 2k10 by conty9/korsak7
