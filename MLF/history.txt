@@ -1,3 +1,5 @@
+12.05.2020
+* Обновлён список Windows distro (сборки adguard "Multi" в полезных ссылках)
 10.05.2020
 * Обновлён список Linux distro
 * Обновлёна сборка System software for Windows by CUTA
