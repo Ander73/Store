@@ -2,6 +2,7 @@
 * Обновлён список Windows distro
 * Обновлён аддон PMagic
 * Обновление утилит от Ratiborus
+* Обновлён список Linux distro
 12.05.2020
 * Обновлён список Windows distro (сборки adguard "Multi" в полезных ссылках)
 10.05.2020
