@@ -1,5 +1,6 @@
 22.05.2020
 * Обновлёна сборка System software for Windows by CUTA
+* Обновлён Adobe Photoshop
 21.05.2020
 * Обновлён список Windows distro
 * Обновлён аддон PMagic
