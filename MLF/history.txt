@@ -1,5 +1,6 @@
 30.05.2020
 * Обновлён Runtime Software Pack
+* Обновлён аддон Acronis (newest) (исправлена загрузка в UEFI новой версии 25700)
 22.05.2020
 * Обновлёна сборка System software for Windows by CUTA
 * Обновлён Adobe Photoshop
