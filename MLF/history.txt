@@ -1,3 +1,5 @@
+30.05.2020
+* Обновлён Runtime Software Pack
 22.05.2020
 * Обновлёна сборка System software for Windows by CUTA
 * Обновлён Adobe Photoshop
