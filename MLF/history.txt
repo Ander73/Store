@@ -1,3 +1,5 @@
+31.05.2020
+* Обновлена сборка SergeiStrelec
 30.05.2020
 * Обновлён Runtime Software Pack
 * Обновлён аддон Acronis (newest) (исправлена загрузка в UEFI новой версии 25700)
