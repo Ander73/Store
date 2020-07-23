@@ -1,3 +1,5 @@
+23.07.2020
+* Обновление сборки от Ratiborus
 04.07.2020
 * Обновлёна сборка System software for Windows by CUTA
 + Добавлен Kerish Doctor
