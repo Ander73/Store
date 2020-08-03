@@ -1,3 +1,5 @@
+03.08.2020
+* Обновлён аддон O&O BlueCon Tech
 29.07.2020
 * Обновлён аддон Reset Windows Password
 23.07.2020
