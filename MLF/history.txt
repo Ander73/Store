@@ -1,5 +1,6 @@
 03.08.2020
 * Обновлён аддон O&O BlueCon Tech
+* Обновление утилит от Ratiborus
 29.07.2020
 * Обновлён аддон Reset Windows Password
 23.07.2020
