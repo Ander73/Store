@@ -1,3 +1,5 @@
+11.09.2020
+* Обновлён список Windows distro
 25.08.2020
 * Обновлён список Windows distro (сборки sergeysvirid)
 24.08.2020
