@@ -1,3 +1,7 @@
+13.09.2020
+* Обновлёна сборка System software for Windows by CUTA
+* Обновлён Adobe Photoshop
+* Обновлена сборка AdminPE
 11.09.2020
 * Обновлён список Windows distro
 25.08.2020
