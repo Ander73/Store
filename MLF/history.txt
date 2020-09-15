@@ -1,3 +1,5 @@
+15.09.2020
+* Обновлена сборка SergeiStrelec
 13.09.2020
 * Обновлёна сборка System software for Windows by CUTA
 * Обновлён Adobe Photoshop
