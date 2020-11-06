@@ -1,3 +1,6 @@
+06.11.2020
+* Обновлена сборка Andreyonohov & Leha342 Lite
+- Удалён Kerish Doctor
 24.10.2020
 * Обновлён список Linux distro (upd. SysResCD)
 22.10.2020
