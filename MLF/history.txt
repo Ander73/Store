@@ -1,5 +1,6 @@
 08.11.2020
 * Обновлён аддон O&O BlueCon Tech
+* Обновлён список Windows distro (sergeysvirid)
 06.11.2020
 * Обновлена сборка Andreyonohov & Leha342 Lite
 - Удалён Kerish Doctor
