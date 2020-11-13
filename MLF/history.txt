@@ -1,3 +1,6 @@
+13.11.2020
+* Обновлёна сборка BELOFF Minimal
+* Обновлён аддон Bootmedia
 08.11.2020
 * Обновлён аддон O&O BlueCon Tech
 * Обновлён список Windows distro (sergeysvirid)
