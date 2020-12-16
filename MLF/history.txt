@@ -1,5 +1,6 @@
 16.12.2020
 * Обновлена сборка System software for Windows by CUTA
+* Обновлён список Windows distro (original 20H2 build 631)
 01.12.2020
 * Обновлена сборка DrJayZi
 25.11.2020
