@@ -1,3 +1,6 @@
+28.12.2020
+* Обновлена сборка Andreyonohov & Leha342 Lite
+* Обновлён аддон PMagic
 16.12.2020
 * Обновлена сборка System software for Windows by CUTA
 * Обновлён список Windows distro (original 20H2 build 631)
