@@ -1,3 +1,5 @@
+31.12.2020
+* Обновлена сборка BELOFF Minimal
 28.12.2020
 * Обновлена сборка Andreyonohov & Leha342 Lite
 * Обновлён аддон PMagic
