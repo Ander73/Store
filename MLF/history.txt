@@ -1,5 +1,6 @@
 14.01.2021
 * Обновлена сборка System software for Windows by CUTA
+* Обновлён аддон Комплекты установки Windows ± Office от SmokieBlahBlah
 09.01.2021
 * Обновлён список Linux distro (upd. LinuxMint)
 06.01.2021
