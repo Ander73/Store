@@ -1,3 +1,5 @@
+18.01.2021
++ Добавлен аддон Avira Rescue System
 14.01.2021
 * Обновлена сборка System software for Windows by CUTA
 * Обновлён аддон Комплекты установки Windows ± Office от SmokieBlahBlah
