@@ -1,3 +1,5 @@
+20.01.2021
+* Обновлён аддон Комплекты установки Windows ± Office от SmokieBlahBlah (Win10)
 18.01.2021
 + Добавлен аддон Avira Rescue System
 14.01.2021
