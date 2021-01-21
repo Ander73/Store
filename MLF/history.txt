@@ -1,5 +1,6 @@
 21.01.2021
 * Обновлена сборка 2k10 by conty9/korsak7
+* Обновлена сборка System software for Windows by CUTA
 20.01.2021
 * Обновлён аддон Комплекты установки Windows ± Office от SmokieBlahBlah (Win10)
 18.01.2021
