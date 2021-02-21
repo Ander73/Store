@@ -1,3 +1,5 @@
+21.02.2021
+* Обновлён список Linux distro (upd. Ubuntu, Tails)
 13.02.2021
 * Обновлён аддон Memory Test Floppy Disk
 11.02.2021
