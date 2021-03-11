@@ -1,6 +1,7 @@
 11.03,2021
 * Обновлён аддон O&O BlueCon Tech
 * Обновлён список Linux distro (upd. SysResc)
+* Обновлена сборка 2k10 by conty9/korsak7
 07.03.2021
 * Обновление сборки от Ratiborus (x64 only)
 06.03.2021
