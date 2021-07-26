@@ -1,3 +1,6 @@
+26.07.2021
+* Обновлена сборка SergeiStrelec
+* Обновлён аддон Memory Test Floppy Disk
 27.05.2021
 * Обновлён аддон Bootmedia
 13.05.2021
