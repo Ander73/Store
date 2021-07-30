@@ -1,3 +1,5 @@
+30.07.2021
+* Обновлён аддон Memory Test Floppy Disk
 26.07.2021
 * Обновлена сборка SergeiStrelec
 * Обновлён аддон Memory Test Floppy Disk
